@@ -5,3 +5,19 @@ body {
   padding: 3rem 1.5rem;
   text-align: center;
 }
+.gif {
+  width: 200px;
+  height: 200px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.title {
+  color: #ebba34 !important
+}
+.sub-title {
+  color: #ebba34 !important
+
+}

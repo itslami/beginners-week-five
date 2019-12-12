@@ -1,65 +1,139 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <title>Bootstrap Example</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <style>
+        /* Remove the navbar's default rounded borders and increase the bottom margin */
+        .navbar {
+          margin-bottom: 50px;
+          border-radius: 0;
+        }
 
-    <title>Starter Template for Bootstrap</title>
+        /* Remove the jumbotron's default bottom margin */
+         .jumbotron {
+           padding-top: 0;
+           padding-bottom: 1px;
+          margin-bottom: 0;
+          color: inherit;
+          background-color: #000;
+        }
 
-    <!-- ADD BOOTSTRAP CORE HERE!!!! -->
+        /* Add a gray background color and some padding to the footer */
+        footer {
+          background-color: #000;
+          padding: 25px;
+        }
+      </style>
+    </head>
+    <body>
 
-    <!-- Custom styles for this template -->
-    <link href="css/styles.css" rel="stylesheet">
-  </head>
+    <div class="jumbotron">
 
-  <body>
+      <div class="container text-center">
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Another Link</a>
-          </li>
-        </ul>
+ <img class="gif" src="https://media.giphy.com/media/j9B1ycZJ89l7y/giphy.gif" alt="whiphair">
+
+        <h1 class="title">LamiLocks</h1>
+        <p class="sub-title">Luxury Virgin Hair</p>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="./images/logo.png" class="logo" alt="logo"/> </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Hair Care Guide</a></li>
+            <li class="active"><a href="about.html">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-search"></span> Search</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
-    <main role="main" class="container">
-
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
-
-      <!-- columns -->
+    <div class="container">
       <div class="row">
-        <div class="col-sm">
-          <!-- add an image here -->
-          One of three columns
+        <div class="col-sm-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">BLACK FRIDAY DEAL</div>
+            <div class="panel-body"><img src="./images/coily.jpg" alt="coily hair" class="img-responsive" style="width:100%" ></div>
+            <div class="panel-footer">Curly Hair</div>
+          </div>
         </div>
-        <div class="col-sm">
-          <!-- add an image here -->
-          One of three columns
+        <div class="col-sm-4">
+          <div class="panel panel-danger">
+            <div class="panel-heading">BLACK FRIDAY DEAL</div>
+            <div class="panel-body"><img src="./images/wavy.jpg" alt="wavy" class="img-responsive" style="width:100%" ></div>
+            <div class="panel-footer">Wavy Hair</div>
+          </div>
         </div>
-        <div class="col-sm">
-          <!-- add an image here -->
-          One of three columns
+        <div class="col-sm-4">
+          <div class="panel panel-success">
+            <div class="panel-heading">BLACK FRIDAY DEAL</div>
+            <div class="panel-body"><img src="./images/straight.jpg" alt"straight" class="img-responsive" style="width:100%" ></div>
+            <div class="panel-footer">Staight Hair</div>
+          </div>
         </div>
       </div>
-      
+    </div><br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">BLACK FRIDAY DEAL</div>
+            <div class="panel-body"><img src="./images/textures.jpg" alt="textures" class="img-responsive" style="width:100%" /"></div>
+            <div class="panel-footer">Bundle Deals</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">BLACK FRIDAY DEAL</div>
+            <div class="panel-body"><img src="./images/bundles.jpg" alt="bundles" class="img-responsive" style="width:100%" ></div>
+            <div class="panel-footer">Coloured Collection</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">FESTIVE SEASON DEAL</div>
+            <div class="panel-body"><img src="./images/icey.jpg.jpg" alt="icey collection" class="img-responsive" style="width:100%" ></div>
+            <div class="panel-footer">Icey Collection</div>
+          </div>
+        </div>
+      </div>
+    </div><br><br>
+
+    <footer class="container-fluid text-center">
+      <p>© LamiLocks 2019</p>
+      <form class="form-inline">Get deals:
+        <input type="email" class="form-control" size="50" placeholder="Email Address">
+        <button type="button" class="btn btn-danger">SUBCRIBE!</button>
+      </form>
+    </footer>
+
+    </body>
+    </html>
+
       <!-- Add another row here -->
     </main><!-- /.container -->
 
